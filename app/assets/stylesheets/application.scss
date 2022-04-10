@@ -13,3 +13,35 @@
  *= require_tree .
  *= require_self
  */
+ //リセットscss
+ @import "bootstrap";
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(img/エアロビ.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+// .main-visual {
+//   width: 100%; /* 横幅いっぱい */
+//   height: 90vh; /* 高さ300px */
+//   background-image: url(img/エアロビ.png);
+//   background-size: cover;
+// }
+footer{
+  margin-top: auto;
+}
+.footer-text {
+  padding-left: 45px;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 20px;
+  font-family: "ヒラギノ明朝 ProN","Hiragino Mincho ProN"; font-weight: bold;
+}
