@@ -20,6 +20,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/earlyaccess/notosansjapanese.css');
+
+header {
+    font-family: "Noto Sans Japanese";
+    opacity: 0.7;
+}
 body{
   background-image: url(img/エアロビ.png);
   background-size: cover;
@@ -28,19 +34,26 @@ body{
   flex-direction: column;
   min-height: 100vh;
 }
-// .main-visual {
-//   width: 100%; /* 横幅いっぱい */
-//   height: 90vh; /* 高さ300px */
-//   background-image: url(img/エアロビ.png);
-//   background-size: cover;
-// }
+.main-visual {
+  width: 100%;
+  text-align: center;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  margin-top: 35vh;
+  font-family: "Noto Sans Japanese";
+  font-size: 5em;
+}
+.box {
+  width: 40%;
+  height: 20%;
+  background-color: rgba(252,105,212,0.5);
+}
 footer{
   margin-top: auto;
 }
 .footer-text {
-  padding-left: 45px;
-  display: flex;
-  justify-content: space-around;
+  text-align: center;
   list-style: none;
   font-size: 20px;
   font-family: "ヒラギノ明朝 ProN","Hiragino Mincho ProN"; font-weight: bold;
