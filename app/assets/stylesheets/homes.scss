@@ -1,0 +1,33 @@
+.main-visual {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35vh;
+  font-family: "Noto Sans Japanese";
+  font-size: 5em;
+  color: #fff;
+}
+.box {
+  width: 40%;
+  height: 35%;
+  background-color: rgba(252,105,212,0.5);
+}
+.about_content{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20vh;
+  font-family: "Noto Sans Japanese";
+  font-size: 1.75em;
+  color: #fff;
+}
+.about_box {
+  width: 40%;
+  height: 35%;
+  background-color: rgba(252,105,212,0.5);
+}
