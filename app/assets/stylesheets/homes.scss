@@ -1,4 +1,4 @@
-.main-visual {
+.home_content {
   width: 100%;
   text-align: center;
   display: flex;
@@ -9,7 +9,7 @@
   font-size: 5em;
   color: #fff;
 }
-.box {
+.top_box {
   width: 40%;
   height: 35%;
   background-color: rgba(252,105,212,0.5);
@@ -27,6 +27,23 @@
   color: #fff;
 }
 .about_box {
+  width: 40%;
+  height: 35%;
+  background-color: rgba(252,105,212,0.5);
+}
+.info_content{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+  font-family: "Noto Sans Japanese";
+  font-size: 1.75em;
+  color: #fff;
+}
+.info_box {
   width: 40%;
   height: 35%;
   background-color: rgba(252,105,212,0.5);
