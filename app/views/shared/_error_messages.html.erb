@@ -1,0 +1,15 @@
+<% if @user.errors.any? %>
+  <div id="error_explanation">
+    <div class="alert alert-danger">
+      <!--pluralizeと書くことで"0 errors", "1 erros", "2 errors"と繰り返さなくなる-->
+      The form contains <%= pluralize(@user.errors.count, "error") %>.
+    </div>
+    <ul>
+      <!--errors.full_messagesオブジェクトは以下の配列を持つ
+      ["Email is invalid", "Password is too short (minimum is 6 characters)"]-->
+    <% @user.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+    <% end %>
+    </ul>
+  </div>
+<% end %>

@@ -36,6 +36,7 @@ body{
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  font-family: "Noto Sans Japanese";
 }
 
 footer{
@@ -46,4 +47,17 @@ footer{
   list-style: none;
   font-size: 20px;
   font-family: "ヒラギノ明朝 ProN","Hiragino Mincho ProN"; font-weight: bold;
+}
+#error_explanation {
+  color: red;
+  ul {
+    color: red;
+    margin: 0 0 30px 0;
+  }
+}
+
+.field_with_errors {
+  .form-control {
+    @extend.is-invalid
+  }
 }
