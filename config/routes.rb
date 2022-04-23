@@ -12,4 +12,6 @@ Rails.application.routes.draw do
   post '/signup',  to: 'users#create'
   resources :users, only: :show
   get '/admin',  to: 'admins#top'
+  # イベント機能
+  resources :events, except: [:new]
 end
