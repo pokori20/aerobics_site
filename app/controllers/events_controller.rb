@@ -5,7 +5,6 @@ class EventsController < ApplicationController
     if @event.save
       flash[:notice]="You have created event successfully."
       redirect_back(fallback_location: root_path)
-
     else
      @events = Event.all
      render :index
@@ -13,7 +12,7 @@ class EventsController < ApplicationController
   end
 
   def index
-    @events = event.all
+    @events = Event.all
   end
   
   private
