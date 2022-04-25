@@ -1,24 +1,29 @@
-# README
+# CasualAerobics
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### [概要]
+個人事業主向けのエアロビサイト
+___
 
-Things you may want to cover:
+### [背景]
+個人事業でエアロビを個人で教えているトレーナーは宣伝のために自分のサイトを持ちたいと思った。
+また、会員の管理も紙媒体からシステムで管理したい。
+___
 
-* Ruby version
+### [実装機能]
 
-* System dependencies
+### 一般ユーザー
 
-* Configuration
+- TOP画面
+- ABOUT　事業紹介
+- Info　Q&A
+- Place 開催場所・日時
 
-* Database creation
 
-* Database initialization
+### 管理者側
 
-* How to run the test suite
+- 管理者ログイン/ログアウト
+- エアロビのスケジュール登録
+- 会員一覧、詳細、編集
 
-* Services (job queues, cache servers, search engines, etc.)
+---
 
-* Deployment instructions
-
-* ...
